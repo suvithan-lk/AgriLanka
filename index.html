@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriLanka - Connecting Farmers with Digital World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Mobile Menu Toggle -->
+    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="main-nav">
+                    <ul class="nav-menu">
+                        <li><a href="#" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#" class="nav-link"><i class="fas fa-users"></i> About Us</a></li>
+                        <li><a href="#" class="nav-link"><i class="fas fa-question-circle"></i> FAQs</a></li>
+                        <li><a href="#" class="nav-link"><i class="fas fa-phone"></i> Helpline</a></li>
+                        <li><a href="#" class="nav-link"><i class="fas fa-images"></i> Gallery</a></li>
+                        <li><a href="#" class="nav-link"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Auth Buttons -->
+                <div class="auth-buttons">
+                    <button class="btn btn-register">
+                        <i class="fas fa-user-plus"></i> Register
+                    </button>
+                    <button class="btn btn-login">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-content">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="brand-info">
+                            <h1 class="brand-title">AgriLanka</h1>
+                            <p class="brand-subtitle">Connecting Farmers with Digital World</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div class="welcome-content">
+                    <h1 class="welcome-title">Welcome Farmers!</h1>
+                    <p class="welcome-subtitle">Empowering Sri Lankan Agriculture Through Technology</p>
+                </div>
+            </section>
+
+            <!-- Hero Slider -->
+            <section class="hero-slider">
+                <div class="slider-container">
+                    <div class="slide active">
+                        <div class="slide-bg slide-1"></div>
+                        <div class="slide-content">
+                            <h2>Modern Farming Solutions</h2>
+                            <p>Transform your agricultural practices with cutting-edge technology</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-bg slide-2"></div>
+                        <div class="slide-content">
+                            <h2>Market Intelligence</h2>
+                            <p>Get real-time market prices and trading opportunities</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-bg slide-3"></div>
+                        <div class="slide-content">
+                            <h2>Weather Insights</h2>
+                            <p>Stay ahead with accurate weather forecasts and irrigation guidance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </section>
+
+            <!-- Services Grid -->
+            <section class="services-section">
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Crop & Cultivation</h3>
+                        <p>Comprehensive guides for paddy, tea, fruits, and vegetables with expert cultivation tips, pest management, and harvesting techniques.</p>
+                        <button class="service-btn">Learn More</button>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Market & Trading</h3>
+                        <p>Access daily updated prices, sell products online, explore export opportunities, and maximize your agricultural profits.</p>
+                        <button class="service-btn">Explore Markets</button>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <h3>Weather & Irrigation</h3>
+                        <p>Real-time weather forecasts, water-saving irrigation techniques, and seasonal agricultural guidance for optimal yields.</p>
+                        <button class="service-btn">Check Weather</button>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Training & Tips</h3>
+                        <p>Modern and traditional farming practices, video tutorials, online training resources, and expert agricultural advice.</p>
+                        <button class="service-btn">Start Learning</button>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community & Support</h3>
+                        <p>Government schemes, agricultural loans, insurance information, and farmer discussion forums for community support.</p>
+                        <button class="service-btn">Join Community</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <!-- Weather Widget -->
+            <div class="weather-widget">
+                <div class="widget-header">
+                    <h3><i class="fas fa-cloud-sun"></i> Current Weather</h3>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Anuradhapura, Sri Lanka</span>
+                    </div>
+                </div>
+                
+                <div class="current-weather">
+                    <div class="temperature">
+                        <span class="temp-value">28°</span>
+                        <span class="temp-unit">C</span>
+                    </div>
+                    <div class="weather-icon">
+                        <i class="fas fa-sun weather-main-icon"></i>
+                    </div>
+                </div>
+                
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-tint"></i>
+                        <span class="detail-label">Humidity</span>
+                        <span class="detail-value">65%</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <span class="detail-label">Wind</span>
+                        <span class="detail-value">12 km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-thermometer-half"></i>
+                        <span class="detail-label">Pressure</span>
+                        <span class="detail-value">1013 hPa</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-sun"></i>
+                        <span class="detail-label">UV Index</span>
+                        <span class="detail-value">6 (High)</span>
+                    </div>
+                </div>
+                
+                <div class="forecast">
+                    <h4 class="forecast-title">5-Day Forecast</h4>
+                    <div class="forecast-days">
+                        <div class="forecast-day">
+                            <span class="day-name">Today</span>
+                            <i class="fas fa-sun forecast-icon"></i>
+                            <span class="forecast-temp">32°/22°</span>
+                        </div>
+                        <div class="forecast-day">
+                            <span class="day-name">Tue</span>
+                            <i class="fas fa-cloud-sun forecast-icon"></i>
+                            <span class="forecast-temp">30°/24°</span>
+                        </div>
+                        <div class="forecast-day">
+                            <span class="day-name">Wed</span>
+                            <i class="fas fa-cloud-rain forecast-icon"></i>
+                            <span class="forecast-temp">27°/21°</span>
+                        </div>
+                        <div class="forecast-day">
+                            <span class="day-name">Thu</span>
+                            <i class="fas fa-bolt forecast-icon"></i>
+                            <span class="forecast-temp">25°/20°</span>
+                        </div>
+                        <div class="forecast-day">
+                            <span class="day-name">Fri</span>
+                            <i class="fas fa-cloud-sun forecast-icon"></i>
+                            <span class="forecast-temp">29°/23°</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Farming Tips Widget -->
+            <div class="tips-widget">
+                <div class="widget-header">
+                    <h3><i class="fas fa-lightbulb"></i> Today's Tips</h3>
+                </div>
+                <div class="tips-content">
+                    <div class="tip-item">
+                        <i class="fas fa-seedling tip-icon"></i>
+                        <p>Check soil moisture before watering crops</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-bug tip-icon"></i>
+                        <p>Monitor for pest activity during warm weather</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-leaf tip-icon"></i>
+                        <p>Apply organic fertilizer to vegetable plots</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-wheat-awn tip-icon"></i>
+                        <p>Harvest paddy when grains are golden yellow</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-cut tip-icon"></i>
+                        <p>Prune tea bushes for better leaf quality</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-seedling"></i>
+                <span>AgriLanka</span>
+            </div>
+            <p>&copy; 2025 AgriLanka | Designed for Farmers</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <i class="fas fa-seedling loader-icon"></i>
+            <p>Loading AgriLanka...</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
